@@ -1,0 +1,6 @@
+return (value = null) {
+    return switch value {
+        @number: value - value == 0,
+        else: false,
+    } 
+}
